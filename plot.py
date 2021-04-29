@@ -132,6 +132,13 @@ def plot():
     plt.tight_layout()
     plt.show()
 
+# 画水平和垂直的直线
+def paintLines():
+    # vlines(x, ymin, ymax)
+    # hlines(y, xmin, xmax)
+    plt.vlines(0, 0, 0.5, colors = "r", linestyles = "dashed")
+    
+    
 if __name__ == '__main__':
     # parseIPC()
     # parseLat()
